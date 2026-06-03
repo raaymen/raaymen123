@@ -1,4 +1,4 @@
-name: lns-scan
+name: scan
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ on:
       parallel:
         description: '并行扫描数量（默认 2，最多 5）'
         required: false
-        default: '2'
+        default: '3'
       shuffle:
         description: '随机打乱目标顺序（默认 true）'
         required: false
